@@ -45,7 +45,7 @@ tomcat-many-instance 是一个部署tomcat单机多实例工具，内涵脚本
 ### 添加实例 
 ```shell
 
-	./instance -add 8100
+	./instance.sh -add 8100
 
 ```
 然后在instances 目录机会出现8100 实例目录
@@ -54,39 +54,39 @@ tomcat-many-instance 是一个部署tomcat单机多实例工具，内涵脚本
 ### 启动实例
 ```shell
 
-	./instance -start 8100
+	./instance.sh -start 8100
 ```
 --- 访问http:localhost:8100
 
 ### 关闭实例
 ```shell
-	./instance -stop 8100
+	./instance.sh -stop 8100
 ```
 
 ### 启动所有实例
 ```shell
-	./instance -startAll
+	./instance.sh -startAll
 ```
 
 
 ### 关闭所有实例
 ```shell
-	./instance -stopAll
+	./instance.sh -stopAll
 ```
 
 ### 删除实例
 ```shell
-	./instance -remove 8100
+	./instance.sh -remove 8100
 ```
 
 
 ### 删除所有实例
 ```shell
-	./instance -removeAll 8100
+	./instance.sh -removeAll 8100
 ```
 
 
 ### 查看当前所有实例
 ```shell
-	./instance -list
+	./instance.sh -list
 ```
