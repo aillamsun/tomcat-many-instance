@@ -45,51 +45,49 @@ tomcat-many-instance 是一个部署tomcat单机多实例工具，内涵脚本
 ### 添加实例 
 ```shell
 
-	./instance.sh -add 8100
+./instance.sh -add 8100
 
 ```
-然后在instances 目录机会出现8100 实例目录
+会自动从template 目录将模版cp一份。同时在instances创建 8100实例目录, 自动将端口全部替换
 
 
 ### 启动实例
 ```shell
 
-	./instance.sh -start 8100
+./instance.sh -start 8100
 ```
-
-会自动从template 目录将模版cp一份。同时在instances创建 8100, 自动将端口全部替换
 
 --- 访问http:localhost:8100
 
 ### 关闭实例
 ```shell
-	./instance.sh -stop 8100
+./instance.sh -stop 8100
 ```
 
 ### 启动所有实例
 ```shell
-	./instance.sh -startAll
+./instance.sh -startAll
 ```
 
 
 ### 关闭所有实例
 ```shell
-	./instance.sh -stopAll
+./instance.sh -stopAll
 ```
 
 ### 删除实例
 ```shell
-	./instance.sh -remove 8100
+./instance.sh -remove 8100
 ```
 
 
 ### 删除所有实例
 ```shell
-	./instance.sh -removeAll 8100
+./instance.sh -removeAll 8100
 ```
 
 
 ### 查看当前所有实例
 ```shell
-	./instance.sh -list
+./instance.sh -list
 ```
