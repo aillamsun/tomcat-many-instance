@@ -24,7 +24,7 @@ echo "HTTP_PORT=$http_port"
 echo "SHUTDOWN_PORT=$shutdown_port"
 echo "REDIRECT_PORT=$redirect_port"
 echo "AJP_PORT=$ajp_port"
-echo "WEBAPP_DIR=$WEBAPP_DIR"
+# echo "WEBAPP_DIR=$WEBAPP_DIR"
 echo "INSTANCE_DIR=$instance_dir"
 echo "ACTION=$action"
 
