@@ -3,7 +3,8 @@ tomcat-many-instance 是一个部署tomcat单机多实例工具，内涵脚本
 
 
 ## 使用说明
-	直接下载tomcat文件夹  放到自己服务器指定目录即可
+	> * 直接下载tomcat文件夹  放到自己服务器指定目录即可
+	> * setEnv.sh无用 可以删除，把instance.sh 引入的位置注释即可
 
 ## 命令说明
 	进入tomcat/script目录 若果没有权限 chmod 给脚本执行权限
