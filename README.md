@@ -56,6 +56,9 @@ tomcat-many-instance 是一个部署tomcat单机多实例工具，内涵脚本
 
 	./instance.sh -start 8100
 ```
+
+会自动从template 目录将模版cp一份。同时在instances创建 8100, 自动将端口全部替换
+
 --- 访问http:localhost:8100
 
 ### 关闭实例
